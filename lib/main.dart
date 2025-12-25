@@ -3,7 +3,7 @@ import 'package:microfearch/native_screen.dart';
 import 'package:microfearch/web_screen.dart';
 
 /// Set test view: true for native, false for web.
-final nativeMode = false;
+final nativeMode = true;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
