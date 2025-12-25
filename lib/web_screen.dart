@@ -10,7 +10,7 @@ class WebScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("Web Screen")),
+        appBar: AppBar(title: const Text('Web Screen')),
         body: InAppWebView(initialUrlRequest: URLRequest(url: WebUri(webUrl))),
       ),
     );
